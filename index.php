@@ -1,4 +1,5 @@
 <?php
+/*  added the coment */
         function delete_folder($folder_path){
             if(file_exists($folder_path)){
             $fp = opendir($folder_path);
